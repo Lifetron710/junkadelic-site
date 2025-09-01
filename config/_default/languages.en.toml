@@ -2,27 +2,31 @@ disabled = false
 languageCode = "en"
 languageName = "English"
 weight = 1
-title = "Blowfish"
+title = "Junkadelic Brass Band"
 
 [params]
   displayName = "EN"
   isoCode = "en"
   rtl = false
   dateFormat = "2 January 2006"
-  # logo = "img/logo.png"
+  logo = "/logo/Junkadelic_icon.jpg"
   # secondaryLogo = "img/secondary-logo.png"
   # description = "My awesome website"
   # copyright = "Copy, _right?_ :thinking_face:"
 
-# [params.author]
-#   name = "Your name here"
-#   email = "youremail@example.com"
-#   image = "img/blowfish_logo.png"
-#   imageQuality = 96
-#   headline = "I'm only human"
-#   bio = "A little bit about you"
-#   links = [
-#     { email = "mailto:hello@your_domain.com" },
+[params.author]
+  name = "Junkadelic"
+  email = "ken@thefunkfactory.net"
+  image = "/picture/band_group_photo.jpg"
+  imageQuality = 96
+  headline = "The Junkadelic Brass Band is a band like no other."
+  bio = """Hailing from Perth, Western Australia, Junkadelic Brass Band combines a smoking hot brass section, 
+        deep-rooted soul vocals, and a funk loaded percussion section using recycled DIY instruments to bring you a unique 
+        musical concoction like no other - guaranteed to bring the party! They have performed at major festivals across Australia, 
+        including WA’s Fairbridge Festival, Perth International Arts Festival, The Kimberley Moon Festival, Honk!Oz, and Southbound, 
+        and internationally in Seattle, Portland, San Francisco and Hong Kong."""
+  links = [
+    { email = "ken@thefunkfactory.net" },
 #     { link = "https://link-to-some-website.com/" },
 #     { amazon = "https://www.amazon.com/hz/wishlist/ls/wishlist-id" },
 #     { apple = "https://www.apple.com" },
@@ -32,14 +36,14 @@ title = "Blowfish"
 #     { dev = "https://dev.to/username" },
 #     { discord = "https://discord.gg/invitecode" },
 #     { dribbble = "https://dribbble.com/username" },
-#     { facebook = "https://facebook.com/username" },
+    { facebook = "https://www.facebook.com/JunkadelicBrassBand" },
 #     { flickr = "https://www.flickr.com/photos/username/" },
 #     { foursquare = "https://foursquare.com/username" },
 #     { github = "https://github.com/username" },
 #     { gitlab = "https://gitlab.com/username" },
 #     { google = "https://www.google.com/" },
 #     { hashnode = "https://username.hashnode.dev" },
-#     { instagram = "https://instagram.com/username" },
+    { instagram = "http://www.instagram.com/junkadelicbrassband" },
 #     { itch-io = "https://username.itch.io" },
 #     { keybase = "https://keybase.io/username" },
 #     { keyoxide = "https://keyoxide.org/URI" },
@@ -70,7 +74,7 @@ title = "Blowfish"
 #     { twitter = "https://twitter.com/username" },
 #     { x-twitter = "https://twitter.com/username" },
 #     { whatsapp = "https://wa.me/phone-number" },
-#     { youtube = "https://youtube.com/username" },
+    { youtube = "http://www.youtube.com/channel/UCEMQ4QXIT9oVuetL_aylC_g" },
 #     { ko-fi = "https://ko-fi.com/username" },
 #     { codeberg = "https://codeberg.org/username"},
-#   ]
+  ]

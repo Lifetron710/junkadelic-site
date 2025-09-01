@@ -10,58 +10,93 @@
 # overridden by providing a weight value. The menu will then be
 # ordered by weight from lowest to highest.
 
-#[[main]]
-#  name = "Blog"
+[[main]]
+  name = "HOME"
 #  pageRef = "posts"
-#  weight = 10
+  weight = 10
 
-#[[main]]
-#  name = "Parent"
-#  weight = 20
+[[main]]
+  name = "BIO"
+  weight = 20
 
-#[[main]]
-#  name = "example sub-menu 1"
+[[main]]
+  name = "SHOWS"
 #  parent = "Parent"
 #  pageRef = "posts"
-#  weight = 20
+  weight = 30
 
-#[[main]]
-#  name = "example sub-menu 2"
-#  parent = "Parent"
-#  pageRef = "posts"
-#  weight = 20
+# MEDIA acts as a dropdown parent
+[[main]]
+  name = "MEDIA"
+  identifier = "media"
+  weight = 40
 
-#[[subnavigation]]
-#  name = "An interesting topic"
-#  pageRef = "tags/interesting-topic"
-#  weight = 10
+  [[main]]
+    parent = "media"
+    name = "MUSIC"
+#    pageRef = "posts"
+    weight = 41
 
-#[[subnavigation]]
-#  name = "My Awesome Category"
+  [[main]]
+    parent = "media"
+    name = "GALLERY"
+#    pageRef = "tags/interesting-topic"
+    weight = 42
+
+[[main]]
+  name = "BOOKINGS"
+#  pageRef = "categories"
+  weight = 50
+
+[[main]]
+  name = "SHOP"
 #  pre = "github"
 #  pageRef = "categories/awesome"
-#  weight = 20
+  weight = 60
 
 #[[main]]
-#  name = "Categories"
-#  pageRef = "categories"
-#  weight = 20
-
-#[[main]]
-#  name = "Tags"
+#  name = "CONTACT US"
 #  pageRef = "tags"
-#  weight = 30
+#  weight = 70
 
+[[main]]
+  name = "COLLECTIVE"
+  identifier = "collective"
+  weight = 80
+  # url = "/collective/"
+  # title = "Learn about the collective"
+
+  [[main]]
+    parent = "collective"
+    name = "About"
+    # url = "/collective/about/"
+    weight = 81
+    # or: pageRef = "collective/about"
+
+  [[main]]
+    parent = "collective"
+    name = "What We Do"
+    # url = "/collective/what-we-do/"
+    weight = 82
+    # or: pageRef = "collective/what-we-do"
+
+  # Child: Workshops
+  [[main]]
+    parent = "collective"
+    name   = "Workshops"
+    # url    = "/collective/workshops/"
+    weight = 83
+    # or: pageRef = "collective/workshops"
 
 # -- Footer Menu --
 # The footer menu is displayed at the bottom of the page, just before
 # the copyright notice. Configure as per the main menu above.
 
 
-# [[footer]]
-#   name = "Tags"
+[[footer]]
+  name = "CONTACT US"
 #   pageRef = "tags"
-#   weight = 10
+  weight = 10
 
 # [[footer]]
 #   name = "Categories"
