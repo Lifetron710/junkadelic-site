@@ -1,0 +1,51 @@
+/* Junkadelic Palette Scheme */
+:root {
+  /* Neutral (base: dark gray/black) */
+  --color-neutral: 51, 54, 68;     /* #333644 */
+  --color-neutral-50: 60, 63, 78;
+  --color-neutral-100: 70, 73, 90;
+  --color-neutral-200: 90, 93, 110;
+  --color-neutral-300: 110, 113, 130;
+  --color-neutral-400: 130, 133, 150;
+  --color-neutral-500: 150, 153, 170;
+  --color-neutral-600: 170, 173, 190;
+  --color-neutral-700: 190, 193, 210;
+  --color-neutral-800: 220, 222, 230;
+  --color-neutral-900: 245, 246, 248;
+
+  /* Primary (Red) */
+  --color-primary-50: 252, 235, 236;
+  --color-primary-100: 249, 205, 207;
+  --color-primary-200: 242, 170, 174;
+  --color-primary-300: 234, 135, 140;
+  --color-primary-400: 222, 100, 106;
+  --color-primary-500: 198, 95, 99;   /* #C65F63 */
+  --color-primary-600: 170, 70, 74;
+  --color-primary-700: 140, 50, 54;
+  --color-primary-800: 110, 40, 44;
+  --color-primary-900: 80, 25, 28;
+
+  /* Secondary (Yellow) */
+  --color-secondary-50: 254, 248, 235;
+  --color-secondary-100: 253, 239, 210;
+  --color-secondary-200: 250, 225, 175;
+  --color-secondary-300: 246, 210, 145;
+  --color-secondary-400: 241, 195, 115;
+  --color-secondary-500: 225, 191, 127;  /* #E1BF7F */
+  --color-secondary-600: 200, 165, 95;
+  --color-secondary-700: 170, 135, 70;
+  --color-secondary-800: 140, 105, 50;
+  --color-secondary-900: 110, 80, 35;
+
+  /* Tertiary (Purple) */
+  --color-tertiary-50: 243, 235, 245;
+  --color-tertiary-100: 230, 215, 232;
+  --color-tertiary-200: 210, 185, 212;
+  --color-tertiary-300: 190, 155, 192;
+  --color-tertiary-400: 170, 125, 172;
+  --color-tertiary-500: 132, 87, 124;   /* #84577C */
+  --color-tertiary-600: 112, 70, 105;
+  --color-tertiary-700: 90, 55, 85;
+  --color-tertiary-800: 70, 40, 65;
+  --color-tertiary-900: 50, 25, 45;
+}
