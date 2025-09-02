@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://lifetron710.github.io/junkadelic-site/sitemap.xml
