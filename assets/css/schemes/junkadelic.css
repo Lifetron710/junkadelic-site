@@ -1,0 +1,31 @@
+/* Junkadelic Scheme – Light & Dark Unified */
+
+:root {
+  /* LIGHT MODE BACKGROUND & BASE TEXT */
+  --color-neutral: 250, 254 , 254; /*Header, background in light*/
+  --color-neutral-50: 255, 87, 87;  
+  --color-neutral-100: 245, 240, 235;
+  --color-neutral-200: 225, 220, 215;
+  --color-neutral-300: 200, 195, 190;
+  --color-neutral-400: 170, 165, 160;
+  --color-neutral-500: 130, 125, 120;
+  --color-neutral-600: 95, 90, 85;
+  --color-neutral-700: 255, 0, 0;    /*head line*/
+  --color-neutral-800: 204, 204, 0;    /* Center Author Name*/
+  --color-neutral-900: 250, 215, 90;    /* header in light mode*/
+
+  /* PURPLE (Links / Icons in Light Mode) */
+  --color-primary-800: 200, 160, 255;   /* Link color */
+  --color-primary-400: 112, 68, 255;  /* Hover color */
+
+}
+
+/* DARK MODE (unchanged, already correct) */
+.dark {
+  --color-neutral: 195, 56, 22;
+  --color-neutral-900: 15, 15, 22;
+  --color-neutral-800: 25, 25, 25;   /*Background*/
+  --color-neutral-200: 255, 50, 0;   /* Title in dark */
+  --color-neutral-300: 250, 215, 90; /* Headline in dark */
+  --color-primary-200: 200, 160, 255; /* Icon/link in dark */
+}

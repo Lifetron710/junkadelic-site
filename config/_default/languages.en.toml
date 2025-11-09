@@ -2,27 +2,27 @@ disabled = false
 languageCode = "en"
 languageName = "English"
 weight = 1
-title = "Blowfish"
+title = "Junkadelic"
 
 [params]
   displayName = "EN"
   isoCode = "en"
   rtl = false
   dateFormat = "2 January 2006"
-  # logo = "img/logo.png"
-  # secondaryLogo = "img/secondary-logo.png"
+  logo = "img/band_logo.jpg"
+  # secondaryLogo = "img/band_logo.jpg"
   # description = "My awesome website"
   # copyright = "Copy, _right?_ :thinking_face:"
 
 [params.author]
   name = "Junkadelic"
-  email = "youremail@example.com"
-  image = "img/blowfish_logo.png"
+  email = "ken@thefunkfactory.net"
+  image = "img/group_photo.jpg"
   imageQuality = 96
-  headline = "Junkadelic"
+  headline = "A band like no other"
   bio = "A little bit about you"
-#   links = [
-#     { email = "mailto:hello@your_domain.com" },
+  links = [
+#     { email = "ken@thefunkfactory.net" },
 #     { link = "https://link-to-some-website.com/" },
 #     { amazon = "https://www.amazon.com/hz/wishlist/ls/wishlist-id" },
 #     { apple = "https://www.apple.com" },
@@ -32,14 +32,14 @@ title = "Blowfish"
 #     { dev = "https://dev.to/username" },
 #     { discord = "https://discord.gg/invitecode" },
 #     { dribbble = "https://dribbble.com/username" },
-#     { facebook = "https://facebook.com/username" },
+    { facebook = "https://www.facebook.com/JunkadelicBrassBand" },
 #     { flickr = "https://www.flickr.com/photos/username/" },
 #     { foursquare = "https://foursquare.com/username" },
 #     { github = "https://github.com/username" },
 #     { gitlab = "https://gitlab.com/username" },
 #     { google = "https://www.google.com/" },
 #     { hashnode = "https://username.hashnode.dev" },
-#     { instagram = "https://instagram.com/username" },
+    { instagram = "https://www.instagram.com/junkadelicbrassband" },
 #     { itch-io = "https://username.itch.io" },
 #     { keybase = "https://keybase.io/username" },
 #     { keyoxide = "https://keyoxide.org/URI" },
@@ -70,7 +70,7 @@ title = "Blowfish"
 #     { twitter = "https://twitter.com/username" },
 #     { x-twitter = "https://twitter.com/username" },
 #     { whatsapp = "https://wa.me/phone-number" },
-#     { youtube = "https://youtube.com/username" },
+    { youtube = "http://www.youtube.com/channel/UCEMQ4QXIT9oVuetL_aylC_g" },
 #     { ko-fi = "https://ko-fi.com/username" },
 #     { codeberg = "https://codeberg.org/username"},
-#   ]
+  ]

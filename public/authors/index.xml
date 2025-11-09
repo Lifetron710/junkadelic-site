@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Authors on Blowfish</title>
-    <link>//localhost:1313/authors/</link>
-    <description>Recent content in Authors on Blowfish</description>
+    <title>Authors on Junkadelic</title>
+    <link>http://localhost:1313/junkadelic-site/authors/</link>
+    <description>Recent content in Authors on Junkadelic</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>youremail@example.com (Junkadelic)</managingEditor>
-    <webMaster>youremail@example.com (Junkadelic)</webMaster>
-    <copyright>© 2025 Junkadelic</copyright>
-    <atom:link href="//localhost:1313/authors/index.xml" rel="self" type="application/rss+xml" />
+    <managingEditor>ken@thefunkfactory.net (Junkadelic)</managingEditor>
+    <webMaster>ken@thefunkfactory.net (Junkadelic)</webMaster>
+    
+    <atom:link href="http://localhost:1313/junkadelic-site/authors/index.xml" rel="self" type="application/rss+xml" />
     
   </channel>
 </rss>
