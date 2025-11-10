@@ -11,7 +11,7 @@
   --color-neutral-500: 130, 125, 120;
   --color-neutral-600: 95, 90, 85;
   --color-neutral-700: 255, 0, 0;    /*head line*/
-  --color-neutral-800: 204, 204, 0;    /* Center Author Name*/
+  --color-neutral-800: 255, 0, 0;    /* Center Author Name*/
   --color-neutral-900: 250, 215, 90;    /* header in light mode*/
 
   /* PURPLE (Links / Icons in Light Mode) */
