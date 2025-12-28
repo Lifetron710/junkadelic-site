@@ -1,0 +1,42 @@
+{{ define "main" }}
+  <style>
+    @font-face {
+    font-family: "GoodGirl";
+    src: url('{{ "fonts/GOODGIRL.TTF" | relURL }}') format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  </style>
+  {{ $bg := resources.Get "img/Grox_and_band.jpg" }}
+  <style>
+  /* Light mode overlay (matches your light background) */
+  .article-bg { --overlay: rgba(250, 250, 248, 0.72); }
+
+  /* Dark mode overlay (matches your dark background) */
+  .dark .article-bg { --overlay: rgba(20, 20, 20, 0.65); }
+  </style>
+  <article class="max-w-full article-bg"
+  style='background-image:
+           linear-gradient(var(--overlay), var(--overlay)),
+           url("{{ $bg.RelPermalink }}");
+         background-size: cover;
+         background-position: center;
+         padding: 2rem;
+         border-radius: 1rem;'>
+    <header>
+      {{ if .Params.showBreadcrumbs | default (.Site.Params.article.showBreadcrumbs | default false) }}
+        {{ partial "breadcrumbs.html" . }}
+      {{ end }}
+      <h1 class="mt-6 text-4xl font-extrabold text-neutral-900 dark:text-neutral" style="font-family: 'GoodGirl', cursive, sans-serif;">
+        {{ .Title | emojify }}
+      </h1>
+    </header>
+    <section class="max-w-full mt-6 prose dark:prose-invert">
+      {{ .Content }}
+    </section>
+    <footer class="pt-8">
+      {{ partial "sharing-links.html" . }}
+    </footer>
+  </article>
+{{ end }}
